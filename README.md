@@ -7,11 +7,14 @@ kalibrere sensoren og gjennomføre forhåndsdefinerte styrkeøkter
 
 ## Status
 
-- ✅ Firmware leser rå ADC-verdier fra HX711 og strømmer dem over seriell (USB)
-- ✅ Web-app for kalibrering (tare + kjent vekt → kg) via Web Serial API
-- ✅ Lokal SQLite-database for kalibreringsprofiler, treningsmaler og økter
-- ✅ Treningsøkt-wizard med nedtelling, lydsignal og automatisk logging per drag
-- ⏳ Bluetooth (BLE) — planlagt, slik at sensoren ikke må være USB-tilkoblet
+Ferdig:
+- Firmware leser rå ADC-verdier fra HX711 og strømmer dem over seriell (USB)
+- Web-app for kalibrering (tare + kjent vekt → kg) via Web Serial API
+- Lokal SQLite-database for kalibreringsprofiler, treningsmaler og økter
+- Treningsøkt-wizard med nedtelling, lydsignal og automatisk logging per drag
+
+Planlagt:
+- Bluetooth (BLE), slik at sensoren ikke må være USB-tilkoblet
 
 ## Maskinvare
 
