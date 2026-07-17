@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Personlige treningsdata — kun schema.sql og seed.sql skal versjonskontrolleres
+data/*.sqlite
+data/*.sqlite3
+data/*.db
